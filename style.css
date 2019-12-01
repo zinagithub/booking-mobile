@@ -1,0 +1,52 @@
+* {
+	background-color: #341f97;
+}
+.container {
+	height: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+    width: 1000px;   
+}
+.container-mobiles {
+	display:flex;
+	height: 500px;
+	margin: 0 auto;
+	margin-right: 25px;
+	position : relative;
+	width : 100%;	
+}
+.mobile1, .mobile2, .mobile3 {
+	background-color: #FFF;
+	border-radius: 15px;
+	height: 500px;
+	margin: 35px;
+	width : 28%;	
+}
+.mobile1, .mobile3 {
+	margin-top : -110px;
+}
+.mobile2 {
+	margin-top : -150px;
+}
+
+.circle1 {
+	background-color: #fbba04;
+    border-radius: 50%;
+    height: 500px;
+    left: 60px;
+    position: absolute;
+    width: 525px;   
+    top: -150%;   
+}
+.circle2 {
+	background-color: #0a8df3;
+    border-radius: 50%;
+	height: 500px;
+	opacity: 0.5;
+	position: absolute;
+	right: -230px;
+	top: -295px;
+    width: 525px;
+    
+}
