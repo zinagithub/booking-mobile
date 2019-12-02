@@ -23,7 +23,7 @@
 .mobile1, .mobile2, .mobile3 {
 	background-color: #FFF;
 	border-radius: 15px;
-	height: 600px;
+	height: 655px;
 	margin: 30px;
 	position : relative;
 	top : -10px;
@@ -40,12 +40,17 @@
 /*.corner1 {
 	background-color: yellow;
 	position : absolute;
-	left : 160px;
-	height: 80px;
+	left : 136px;
+	height: 100px;
+	border-top-right-radius: 15px;
+	border-top-left-radius : 100px;
+	border-bottom-left-radius: 150px 100px;
+	/*transform: rotate(45deg);
+ border-bottom-left-radius: 150px 100px;
 	border-top-right-radius: 15px;
 	border-bottom-left-radius: 100px;
 	border-bottom : 50px solid transparent;
-	width : 160px;
+	width : 200px;
 	top : -0;
 }*/
 .circle1 {
@@ -104,4 +109,160 @@
     left: 1033px;
     top: 690px;
     width: 400px;
+}
+.mobile1 {
+	text-align: left; 
+	padding-left: 20px
+}
+.games {
+	width: 70%;
+}
+.game {
+	margin-bottom: 15px
+}
+.title-game {
+	float : right;
+
+}
+.aqualona-titles h1 {
+	font-size: 40px;
+    margin: 0;
+}
+.aqualona-titles p {
+   font-size: 14px;
+   font-weight: bold;
+   opacity :0.9;
+   margin-bottom: 40px;
+}
+.aqualona-titles p i {
+	font-size: 18px;
+	color : #fff; 
+	 
+	background: #0652DD; 
+	
+	border-radius: 50%;
+	vertical-align : middle;
+	padding : 10px;
+	margin-right: 10px
+}
+.aqualona-titles p:last-child {
+	font-size: 35px;
+	font-weight: normal;
+	margin-top: 0;
+}
+.mobile2-header {
+	color : #FFF;
+	width : 80%;
+}
+.mobile2-header p {
+	font-size: 20px;
+
+}
+.mobile2 .row {
+	width : 100%;
+	display : flex;
+}
+.mobile2 .row .col1 {
+   color : #FFF;	
+   width : 50%;
+}
+
+.text1 h2 , .text2 h2 , .text2 p{
+	padding-left : 30px;
+	margin : 0;
+}
+.mobile2 .row .col2 {
+	width : 50%;
+}
+.text2 {
+	margin-top : 30px;
+	margin-bottom: 30px;
+}
+.col2 {
+	position : relative;
+	/*z-index: 1;*/
+}
+.wave i {
+   font-size: 100px;
+   color : blue;
+   
+}
+.col2-img {
+	position : absolute;
+	z-index: 2;
+}
+.wave {
+	position : absolute;
+	top : 300px;
+
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.mobile2-header {
+	width :80%;
+	margin:0 auto;
+}
+.mobile2-header p i {
+  margin-right: 50px;
+  font-size: 30px;
+  margin-bottom: 30px
+}
+.mobile3-header {
+	margin : 20px;
+	padding :10px;
+}
+.mobile3-header i {
+   float : left;
+   font-size: 40px;
+   }
+.mobile3-header img {
+	float :right;
+	 border-radius : 50%
+}   
+
+.mobile3-cards {
+	clear : both;
+	display : flex;
+}
+.mobile3-card1, .mobile3-card2, .mobile3-card3
+{
+	width: 380px; 
+	height: 100px;
+	background : yellow;
+	margin : 10px;
+	border-radius : 15px;
+	text-align: center
+}
+button {
+	background-color: #f7b731;
+	color: #2f3542;
+	text-align: center;
+    vertical-align: middle;
+    width : 60%;
+    height: 50px;
+    outline: none;
+    border-radius:5px;
+    border:none;
+}
+.mobile3-inputs {
+	margin : 30px
+}
+.inputs-name {
+	display : flex;
+	flex-direction: column;
+}
+.inputs-checks {
+	display : flex;
+	flex-direction: row;
+}
+.check-in {
+	display : flex;
+	flex-direction: column;
+	width:50%
+}
+.check-out {
+	display : flex;
+	flex-direction: column;
+	width:50%
 }
