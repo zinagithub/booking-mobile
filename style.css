@@ -21,7 +21,7 @@
 
 }
 .mobile1, .mobile2, .mobile3 {
-	background-color: #FFF;
+	background-color: #f1f2f6;
 	border-radius: 15px;
 	height: 655px;
 	margin: 30px;
@@ -212,6 +212,11 @@
 	margin : 20px;
 	padding :10px;
 }
+.mobile3>h1{
+  clear : both; 
+  margin:40px auto 40px 20px; 
+  color:#1B1464
+}
 .mobile3-header i {
    float : left;
    font-size: 40px;
@@ -222,24 +227,65 @@
 }   
 
 .mobile3-cards {
-	clear : both;
+	/*clear : both;*/
 	display : flex;
+}
+
+.mobile3-card1 p:nth-child(1),
+.mobile3-card2 p:nth-child(1),
+.mobile3-card1 p:nth-child(1)
+{
+	margin-bottom: 15px;
 }
 .mobile3-card1, .mobile3-card2, .mobile3-card3
 {
 	width: 380px; 
 	height: 100px;
-	background : yellow;
+	background : #fff;
 	margin : 10px;
 	border-radius : 15px;
 	text-align: center
+}
+.mobile3-card1 {
+	background-color: #0652DD;
+	color:#FFF;
+
+}
+.mobile3-card1 i{
+	font-size: 25px;
+	color:#FFF
+}
+.mobile3-card2 i{
+	font-size: 25px;
+	color:yellow
+}
+.mobile3-card3 i{
+	color :#1dd1a1;
+	font-size: 25px;
+}
+
+.mobile3-card1 h4, 
+.mobile3-card2 h4,
+.mobile3-card3 h4 {
+	margin-bottom: 0;
+	margin-top: 0
+}
+.mobile3-card2 h4,
+.mobile3-card3 h4 {
+	color :#2f3542;
+}
+.mobile3-card1 p:last-child ,
+.mobile3-card2 p:last-child ,
+.mobile3-card3 p:last-child {
+	margin-top: 0;
+	opacity: 0.5
 }
 button {
 	background-color: #f7b731;
 	color: #2f3542;
 	text-align: center;
     vertical-align: middle;
-    width : 60%;
+    width : 100%;
     height: 50px;
     outline: none;
     border-radius:5px;
@@ -259,10 +305,26 @@ button {
 .check-in {
 	display : flex;
 	flex-direction: column;
-	width:50%
+	margin-right:20px;
+	/*width:50%*/
 }
 .check-out {
 	display : flex;
 	flex-direction: column;
-	width:50%
+	margin-right:0;
+	/*width:50%*/
+}
+.check-in input, .check-out input {
+	width : 85%;
+}
+.inputs-name label, .inputs-checks label{
+ color : #34ace0;
+ letter-spacing: 3px;
+ font-weight: bold;	
+ margin-top : 10px;
+ margin-bottom: 10px;
+}
+.inputs-name input[type=text], .inputs-checks input[type=text]{
+	padding : 10px;
+	opacity: 0.4;
 }
